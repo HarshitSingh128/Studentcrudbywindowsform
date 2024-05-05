@@ -53,6 +53,7 @@
             this.label1.Size = new System.Drawing.Size(66, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Student Id";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -62,6 +63,7 @@
             this.label2.Size = new System.Drawing.Size(92, 16);
             this.label2.TabIndex = 1;
             this.label2.Text = "Student Name";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -71,6 +73,7 @@
             this.label3.Size = new System.Drawing.Size(32, 16);
             this.label3.TabIndex = 2;
             this.label3.Text = "Age";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -80,6 +83,7 @@
             this.label4.Size = new System.Drawing.Size(41, 16);
             this.label4.TabIndex = 3;
             this.label4.Text = "Email";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // txtId
             // 
@@ -87,6 +91,7 @@
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(306, 22);
             this.txtId.TabIndex = 4;
+            this.txtId.TextChanged += new System.EventHandler(this.txtId_TextChanged);
             // 
             // txtname
             // 
@@ -94,6 +99,7 @@
             this.txtname.Name = "txtname";
             this.txtname.Size = new System.Drawing.Size(306, 22);
             this.txtname.TabIndex = 5;
+            this.txtname.TextChanged += new System.EventHandler(this.txtname_TextChanged);
             // 
             // txtage
             // 
@@ -101,6 +107,7 @@
             this.txtage.Name = "txtage";
             this.txtage.Size = new System.Drawing.Size(306, 22);
             this.txtage.TabIndex = 6;
+            this.txtage.TextChanged += new System.EventHandler(this.txtage_TextChanged);
             // 
             // txtemail
             // 
@@ -108,6 +115,7 @@
             this.txtemail.Name = "txtemail";
             this.txtemail.Size = new System.Drawing.Size(309, 22);
             this.txtemail.TabIndex = 7;
+            this.txtemail.TextChanged += new System.EventHandler(this.txtemail_TextChanged);
             // 
             // btnsave
             // 
@@ -158,6 +166,7 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(628, 256);
             this.dataGridView1.TabIndex = 12;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // btnshow
             // 
